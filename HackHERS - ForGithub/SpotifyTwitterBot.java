@@ -62,7 +62,7 @@ public class SpotifyTwitterBot {
     }
 
     // load twitter4j with the secret tokens from the twitter api
-    // OBFUSCATE THIS BEFORE UPLOADING TO GITHUB JESUS CHRIST
+
     private static ConfigurationBuilder getCB() {
 
         // get these values from the twitter developer portal
