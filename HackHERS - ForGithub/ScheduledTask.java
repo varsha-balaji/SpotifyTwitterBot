@@ -19,7 +19,7 @@ public class ScheduledTask extends TimerTask{
         Timer timer = new Timer();
         ScheduledTask schedule = new ScheduledTask();
         
-
+        //helps convert between a specific instant of time
         //gets the time to tweet tomorrow, at 12pm. takes todays date, adds one, and sets the time to 12:00
         Calendar scheduledDay =  Calendar.getInstance();
         scheduledDay.add(Calendar.DAY_OF_YEAR, daysFromToday);
